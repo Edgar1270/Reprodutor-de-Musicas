@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Reprodutor de Música</title>
+  </head>
+  <body>
+    <div id="player">
+      <h2>Reprodutor de Música</h2>
+
+      <div class="upload">
+        <input type="file" id="fileInput" accept="audio/*" />
+        <label for="fileInput">Subir Música</label>
+      </div>
+
+      <audio id="audio" controls preload="auto"></audio>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
